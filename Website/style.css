@@ -91,7 +91,7 @@ nav{
 .hero{
     height: 500px;
     margin-top: -261px;
-    /*background: linear-gradient(to bottom, rgba(0, 96, 55, 0.6) 97%,  rgba(255, 255, 255, 0.95) 100%), url(images/Hero.jpg)no-repeat content-box center / cover;*/
+    /*background: linear-gradient(to bottom, rgba(0, 96, 55, 0.6) 97%,  rgba(255, 255, 255, 0.95) 100%), url(Images/Hero.jpg)no-repeat content-box center / cover;*/
     background: linear-gradient(to bottom, rgba(0, 96, 55, 0.6) 82%,  rgba(255, 255, 255, 0.95) 85%, rgba(255, 255, 255, 1) 100%), url(Images/Hero.jpg)no-repeat content-box center / cover;
 }
 
@@ -465,7 +465,7 @@ input[type="submit"]:hover {
 }
 
 #txt_banner{
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 100%, rgba(0, 96, 55, 0.6) 100%), url(images/Hero.jpg)no-repeat content-box center / cover;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 100%, rgba(0, 96, 55, 0.6) 100%), url(Images/Hero.jpg)no-repeat content-box center / cover;
 }
 
 #txt_agenda{

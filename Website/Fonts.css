@@ -1,0 +1,34 @@
+@font-face { 
+    font-family: "Monserrat_Medium";  
+    src: url('Fonts/Montserrat-Medium.eot?') format('eot'), 
+        url('Fonts/Montserrat-Medium.woff') format('woff'), 
+        url('Fonts/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family: "Monserrat_Light";  
+    src: url('Fonts/Montserrat-Light.eot?') format('eot'), 
+        url('Fonts/Montserrat-Light.woff') format('woff'), 
+        url('Fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family: "Monserrat_Thin";  
+    src: url('Fonts/Montserrat-Thin.eot?') format('eot'), 
+        url('Fonts/Montserrat-Thin.woff') format('woff'), 
+        url('Fonts/Montserrat-Thin.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family: "Monserrat_Bold";  
+    src: url('Fonts/Montserrat-Bold.eot?') format('eot'), 
+        url('Fonts/Montserrat-Bold.woff') format('woff'), 
+        url('Fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family: "Montserrat-ExtraBold";  
+    src: url('Fonts/Montserrat-ExtraBold.eot?') format('eot'), 
+        url('Fonts/Montserrat-ExtraBold.woff') format('woff'), 
+        url('Fonts/Montserrat-ExtraBold.ttf') format('truetype');
+}

@@ -145,6 +145,18 @@ nav{
     margin-bottom: 60px;
 }
 
+#youtube1{
+    height: 300px;
+}
+
+#canal_msg{
+    font-size: 15px;
+}
+
+#canal_msg p{
+    text-shadow: none;
+}
+
 #message_section{
     margin-top: -15px;
 }
@@ -184,9 +196,14 @@ nav{
 }
 
 .video_youtube{
-    margin-left: 60px;
+    margin-left: 0px;
+    margin-right: 10px;
     display: flex;
     box-shadow: 2px 2px 10px gray;
+}
+
+#subsection{
+    height: 50px;
 }
 
 .separator{
@@ -206,29 +223,40 @@ nav{
 .caja{
     justify-content: center;
     align-items: center;
+    font-size: 25px;
 }
 
 .caja p{
     display: flex;
-    justify-content: center;
+    margin-bottom: 0px;
+}
+
+#canalTV{
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 37px;
+    margin: 0px;
+}
+
+#programa{
+    font-size: 18px;
 }
 
 .caja h3{
     display: flex;
-    justify-content: center;
     color: black;
     font-family: 'Montserrat-ExtraBold';
     text-transform: uppercase;
     font-size: 28px;
-    margin: 15px;
+    margin: 5px;
 }
 
-.link_youtube input{
-    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
+/*
+#subsection input{
+    background-image: -webkit-linear-gradient(top,#03b94a,#03b94a);
+    background-color: #03b94a;
+    border: 1px solid #03b94a;
     border-radius: 4px;
-    color: #3c4043;
+    color: white;
     font-family: arial,sans-serif;
     font-size: 14px;
     margin: 11px 4px;
@@ -239,13 +267,23 @@ nav{
     text-align: center;
     cursor: pointer;
     user-select: none;
+}*/
+
+#subsection p{
+    font-size: 16px;
+    text-shadow: none;
+}
+
+#subsection a{
+    width: 90px;
+    margin: 0;
 }
 
 input[type="submit"]:hover {
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
-    background-color: #f8f9fa;
-    border: 1px solid #dadce0;
+    background-image: -webkit-linear-gradient(top,#8DBC48,#8DBC48);
+    background-color: #8DBC48;
+    border: 1px solid#8DBC48;
     color: #202124;
 }
 
@@ -310,6 +348,39 @@ input[type="submit"]:hover {
     font-weight: bold;
     text-transform: uppercase;
     color: var(--main_color);
+}
+
+.flyer{
+    width: 50%;
+    height: 80%;
+    /*background: url(./Images/Flyer.jpeg)no-repeat content-box center / cover;*/
+    background: white;
+    position: relative;
+    visibility: hidden;
+    top: -80%;
+    left: -80%;
+    transform: rotate(90deg), translate(-150%,230%);
+    transition: all 600ms;
+}
+
+
+.flyer_container{
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    object-fit: cover;
+}
+
+.flyer_container img{
+    width: 100%;
+    height: auto;
+}
+
+.box_popup:target .flyer{
+    top: 50%;
+    left: 50%;
+    transform: rotate(0deg) translate(-50%, -50%);
+    visibility: visible;
 }
 
 .footer_links{

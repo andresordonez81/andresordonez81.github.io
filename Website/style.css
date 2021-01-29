@@ -206,6 +206,17 @@ nav{
     height: 50px;
 }
 
+#subsection1{
+    height: 50px;
+    width: 50%;
+    font-family: 'Monserrat_Light';
+}
+
+#redes_contacto{
+    display: flex;
+    margin-right: 25px;
+}
+
 .separator{
     width: 50%;
     height: 10px;

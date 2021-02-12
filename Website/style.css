@@ -577,8 +577,8 @@ input[type="submit"]:hover {
 
 .box_article{
     /*border: 1px solid rgb(221, 219, 219);*/
-    height: 100%;
-    width: 30%;
+    height: 50%;
+    width: 40%;
     box-shadow: 2px 2px 10px gray;
     font-family:'Monserrat_Thin';
     border-top-left-radius: 10px;
@@ -687,7 +687,7 @@ input[type="submit"]:hover {
     padding: 25px;
     padding-top: 15px;
     overflow-y: auto;
-    height: 65%;
+    height: 100%;
     text-align: justify;
     box-sizing: border-box;
 }
@@ -698,12 +698,13 @@ input[type="submit"]:hover {
     font-family: 'Monserrat_Light';
     font-size: 14px;
     text-align: justify;
-    height: 80%;
+    height: auto;
     box-sizing: border-box;
+    padding-bottom: 10px;
 }
 
 .popup h3{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     height: 20%;
 }
@@ -735,6 +736,26 @@ input[type="submit"]:hover {
     text-decoration: none;
     text-align: center;
     font-weight: bolder;
+}
+
+.popup_table{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.popup_table th{
+    border: 1px solid var(--main_color);
+    text-align: center;
+    background-color: #328302;
+    color: white;
+    font-weight: bold;
+}
+
+.popup_table td{
+    border: 1px solid #006037;
+    text-align: center;
+    color: var(--main_color);
+    font-weight: bold;
 }
 
 .box_btn_1{

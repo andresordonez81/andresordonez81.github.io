@@ -167,7 +167,7 @@ nav{
     height: 90%;
     font-family: 'Monserrat_Thin';
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 35px;
     margin: 0px;
     display: flex;
     align-items: center;
@@ -920,6 +920,7 @@ input[type="submit"]:hover {
 .srv_txt_container{
     width: 50%;
     height: 100%;
+    font-size: 19px;
 }
 
 .srv_txt_container ul{

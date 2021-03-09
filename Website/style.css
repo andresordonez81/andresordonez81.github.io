@@ -178,6 +178,11 @@ nav{
     height: auto;
 }
 
+.iframe{
+    width: 534px;
+    height: 300px;
+}
+
 #canal_msg{
     font-size: 15px;
 }
@@ -1030,4 +1035,8 @@ input[type="submit"]:hover {
         margin-left: 0px;  
     }
     
+    .iframe{
+        width: 358px;
+        height: 202px;
+    }
 }

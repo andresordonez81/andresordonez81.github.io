@@ -1039,4 +1039,8 @@ input[type="submit"]:hover {
         width: 358px;
         height: 202px;
     }
+
+    .logo{
+        height: 105px;
+    }
 }

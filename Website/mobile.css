@@ -1,0 +1,131 @@
+.header{
+    width: 90%;
+}
+
+header label{
+    display: block;
+}
+
+header label:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.menu{
+    position: absolute;
+    top: 90px;
+    left: 55px;
+    margin-left: -400px;
+}
+
+.menu ul{
+    flex-direction: column;
+    display: block;
+    /*margin-left: 129px;
+    margin-top: 150px;*/
+}
+
+.menu li{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    justify-content: center;
+}
+
+.menu li:hover{
+    background-color: rgba(209, 205, 205, 1);
+}
+
+.menu a{
+    margin: 0;   
+}
+
+#btn-menu:checked ~ .menu{
+    margin-left: 0px;  
+}
+
+#message_section p{
+    font-size: 20px;
+}
+
+.iframe{
+    width: 358px;
+    height: 202px;
+}
+
+.logo{
+    height: 105px;
+}
+
+.hero{
+    border: none;
+}
+
+.item_container{
+    width: 80vw;
+}
+
+.content{
+    margin-top: 30px;
+    width: 80vw;
+}
+
+#img-content2{
+    margin-top: 40px;
+}
+
+.item_box{
+    width: 80vw;
+}
+
+.banner_box{
+    flex-wrap: wrap;
+}
+
+.agenda_banner{
+    width: 300px;
+    height: auto;
+}
+
+.agenda_img_container{
+    width: 300px;
+}
+
+#txt_agenda{
+    width: 80%;
+}
+
+.event{
+    height: 380px;
+}
+
+.event_container{
+    height: 300px;
+}
+
+.portfolio{
+    flex-wrap: wrap;
+    margin-top: -17px;
+}
+
+.box_article{
+    width: 300px;
+    margin-bottom: 45px;
+}
+
+#servicios{
+    margin-bottom: 45px;
+}
+
+.srv_txt_container{
+    margin-top: 57px;
+}
+
+.mail_btn{
+    width: 100%;
+}
+
+.contact_container{
+    width: 90vw;
+}
+

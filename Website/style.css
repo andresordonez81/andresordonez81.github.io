@@ -653,7 +653,7 @@ input[type="submit"]:hover {
 
 .box_txt{
     width: 80%;
-    height: 200px;
+    min-height: 200px;
     padding: 10px;
     font-family: 'Monserrat_Thin';
     font-size: 15px;
@@ -805,7 +805,7 @@ input[type="submit"]:hover {
 }
 
 .contact_bkg{
-    height: 600px;
+    min-height: 600px;
     margin-top: -70px;
     /*background: linear-gradient(to right, rgba(255,255,255,0.95) 80%, rgba(255,255,255,0.95) 100%), url(./Images/Contacto.jpg)no-repeat content-box center / cover;*/
 }
@@ -815,7 +815,8 @@ input[type="submit"]:hover {
     width: 70%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .contact_text{
@@ -825,9 +826,9 @@ input[type="submit"]:hover {
 
 .contact_form{
     display: block;
-    padding: 55px;
+    padding: 15px;
     height: 86%;
-    width: 30%;
+    width: 380px;
     background-color: white;
     margin: 20px;
     margin-top: 50px;
@@ -845,8 +846,8 @@ input[type="submit"]:hover {
 }
 
 .contact_form h3{
-    margin-top: 0;
-    margin-bottom: 60px;
+    margin-top: 15px;
+    margin-bottom: 35px;
 }
 
 .box_input::placeholder{
@@ -993,80 +994,3 @@ input[type="submit"]:hover {
     color: var(--main_color);
 }
 
-@media (max-width:1200px){
-    .header{
-        width: 90%;
-    }
-
-    header label{
-        display: block;
-    }
-
-    header label:hover{
-        cursor: pointer;
-        box-shadow: 2px 2px 10px gray;
-    }
-    
-    .menu{
-        position: absolute;
-        top: 90px;
-        left: 55px;
-        margin-left: -400px;
-    }
-
-    .menu ul{
-        flex-direction: column;
-        display: block;
-        /*margin-left: 129px;
-        margin-top: 150px;*/
-    }
-
-    .menu li{
-        display: flex;
-        padding: 20px;
-        background-color: white;
-        justify-content: center;
-    }
-
-    .menu li:hover{
-        background-color: rgba(209, 205, 205, 1);
-    }
-
-    .menu a{
-        margin: 0;   
-    }
-
-    #btn-menu:checked ~ .menu{
-        margin-left: 0px;  
-    }
-    
-    .iframe{
-        width: 358px;
-        height: 202px;
-    }
-
-    .logo{
-        height: 105px;
-    }
-
-    .hero{
-        border: none;
-    }
-
-    .item_container{
-        width: 80vw;
-    }
-
-    .content{
-        margin-top: 30px;
-        width: 80vw;
-    }
-
-    #img-content2{
-        margin-top: 40px;
-    }
-    
-    .item_box{
-        width: 80vw;
-    }
-}

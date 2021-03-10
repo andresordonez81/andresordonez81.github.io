@@ -1065,7 +1065,8 @@ input[type="submit"]:hover {
     #img-content2{
         margin-top: 40px;
     }
-    /*.item_box{
-        width: 90vw;
-    }*/
+    
+    .item_box{
+        width: 80vw;
+    }
 }

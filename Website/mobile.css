@@ -130,3 +130,11 @@ header label:hover{
     width: 90vw;
 }
 
+#subsection1{
+    width: 80%;
+}
+
+#subsection2{
+    width: 85%;
+    font-size: 20px;
+}

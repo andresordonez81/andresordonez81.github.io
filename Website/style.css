@@ -246,6 +246,7 @@ nav{
     height: 50px;
     width: 50%;
     font-family: 'Monserrat_Light';
+    min-height: fit-content;
 }
 
 #redes_contacto{
@@ -572,6 +573,8 @@ input[type="submit"]:hover {
     align-items: center;
     color: var(--main_color);
     box-shadow: 2px 2px 10px gray;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .agenda_img_container img{

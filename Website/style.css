@@ -1057,6 +1057,14 @@ input[type="submit"]:hover {
         width: 80vw;
     }
 
+    .content{
+        margin-top: 30px;
+        width: 80vw;
+    }
+
+    #img-content2{
+        margin-top: 40px;
+    }
     /*.item_box{
         width: 90vw;
     }*/

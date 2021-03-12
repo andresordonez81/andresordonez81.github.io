@@ -132,7 +132,7 @@ nav{
 
 .footer_content{
     height: 80%;
-    width: 400px;
+    width: 300px;
     margin: 10px;
     font-family: 'Monserrat_Light';
     font-size: 12px;
@@ -997,3 +997,18 @@ input[type="submit"]:hover {
     color: var(--main_color);
 }
 
+#registro{
+    margin-top: -15px;
+}
+
+.register{
+    text-align: center;
+}
+
+.register img{
+    margin: 25px;
+}
+
+.register h2,h4,h5{
+    margin: 15px;
+}

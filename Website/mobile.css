@@ -96,11 +96,11 @@ header label:hover{
 }
 
 .event{
-    height: 380px;
+    min-height: 380px;
 }
 
 .event_container{
-    height: 300px;
+    min-height: 300px;
 }
 
 .portfolio{

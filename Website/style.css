@@ -374,7 +374,7 @@ input[type="submit"]:hover {
 .event{
     width: 70%;
     margin: 0 auto;
-    height: 600px;
+    height: 530px;
     justify-content: center;
     align-items: center;
     color: var(--main_color);
@@ -413,7 +413,7 @@ input[type="submit"]:hover {
 }
 
 .event img{
-    height: 100%;
+    height: 108%;
     width: 100%;
     object-fit: contain;
 }

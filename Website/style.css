@@ -1043,3 +1043,7 @@ input[type="submit"]:hover {
 .register h2,h4,h5{
     margin: 15px;
 }
+
+#event_agenda{
+    height: 493px;
+}

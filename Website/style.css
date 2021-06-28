@@ -1047,3 +1047,11 @@ input[type="submit"]:hover {
 #event_agenda{
     height: 493px;
 }
+
+.privacidad {
+    padding-top: 10px;
+}
+
+.aviso_title {
+    padding-left: 30px;
+}

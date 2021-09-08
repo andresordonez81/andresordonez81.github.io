@@ -399,7 +399,7 @@ input[type="submit"]:hover {
 }
 
 .event_link{
-    margin-top: 28px;
+    margin-top: 60px;
     font-family: 'Monserrat_Medium';
     color: var(--main_color);
     display: flex;
@@ -1045,7 +1045,7 @@ input[type="submit"]:hover {
 }
 
 #event_agenda{
-    height: 493px;
+    height: 380px;
 }
 
 .privacidad{
